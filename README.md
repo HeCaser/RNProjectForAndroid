@@ -22,6 +22,7 @@ https://reactnative.dev/docs/environment-setup
   - 保留 Metro 所在的终端， 新启一个终端
   - 执行命令 npx react-native run-android
   - 会遇到各种错误，依次解决
+  - 公司电脑使用了 Gas Mask， 引起网络不通，可以如下处理 ： 查看电脑的 网络偏好设置——>高级->代理， 关闭网页代理；
 
 if everything is set up correctly, you should see your new app running in your Android emulator（device） shortly.
 ```
