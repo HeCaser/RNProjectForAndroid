@@ -18,7 +18,15 @@ https://reactnative.dev/docs/environment-setup
 
     <img src='01runmetro.png'>
 
-- 编译构建 App。
+- 编译构建 App
   - 保留 Metro 所在的终端， 新启一个终端
   - 执行命令 npx react-native run-android
-  - 过程若报错，依次解决
+  - 会遇到各种错误，依次解决
+
+if everything is set up correctly, you should see your new app running in your Android emulator（device） shortly.
+```
+    > Task :app:installDebug
+    `Installing APK 'app-debug.apk' on 'Pixel 3 - 12' for :app:debug
+    Installed on 1 device.
+```
+
